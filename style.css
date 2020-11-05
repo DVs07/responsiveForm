@@ -260,7 +260,7 @@ form.sign-up-form{
         left: 50%;
         top: 95%;
         transform: translate(-50%,-100%);
-        transition: 1.s .8s ease-in-out;
+        transition: 1s .8s ease-in-out;
     }
     .panels-container{
         z-index: 10;
@@ -307,16 +307,17 @@ form.sign-up-form{
         bottom: 32%;
         right: initial;
     }
-}
-.container.sign-up-mode .left-panel .image,
+    .container.sign-up-mode .left-panel .image,
 .container.sign-up-mode .left-panel .content{
     transform: translateY(-300px);
 }
 .container.sign-up-mode .signin-signup{
     top: 5%;
-    transform: translate(-50% , 0);
+    transform: translate(-50% , 32%);
     left: 50%;
 }
+}
+
 @media(max-width: 570px){
     form{
         padding: 0 1.5rem;
