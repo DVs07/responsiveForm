@@ -313,7 +313,7 @@ form.sign-up-form{
 }
 .container.sign-up-mode .signin-signup{
     top: 5%;
-    transform: translate(-50% , 32%);
+    transform: translate(-50% , 0%);
     left: 50%;
 }
 }
